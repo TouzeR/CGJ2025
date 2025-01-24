@@ -10,7 +10,7 @@ namespace Instruments
         public Trompette()
         {
             name = "Trompette";
-            key = KeyCode.G;
+            key = KeyCode.F;
         }
 
         void Start()

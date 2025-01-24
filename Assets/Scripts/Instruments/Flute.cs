@@ -9,7 +9,7 @@ namespace Instruments
         public Flute()
         {
             name = "Flûte";
-            key = KeyCode.F;
+            key = KeyCode.G;
         }
 
         void Start()
