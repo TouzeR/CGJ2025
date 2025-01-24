@@ -50,28 +50,26 @@ namespace Bosses
             instruments[attack].PlaySound();
             Debug.Log("Attaque boss : " + instruments[attack].getKey());
 
-            // Délai de 5 secondes pour permettre au joueur de répondre
             bool playerRespondedCorrectly = await WaitForPlayerResponse(instruments[attack].getKey());
 
             if (playerRespondedCorrectly)
             {
                 health -= 1;
-                Debug.Log("Attaque subie par le boss !");
             }
             else
             {
                 Debug.Log("Dégâts subis par le joueur !");
             }
 
-
             await Task.Delay(cooldown);
             inCooldown = false;
+
         }
 
         private async Task<bool> WaitForPlayerResponse(KeyCode expectedKey)
         {
             bool playerResponded = false;
-            float timeLimit = 5f; // Temps limite en secondes
+            float timeLimit = 5f;
             float elapsedTime = 0f;
 
             while (elapsedTime < timeLimit)
@@ -82,7 +80,7 @@ namespace Bosses
                     break;
                 }
 
-                await Task.Yield(); // Attendre la prochaine frame
+                await Task.Yield();
                 elapsedTime += Time.deltaTime;
             }
 
