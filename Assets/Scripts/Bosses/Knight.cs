@@ -16,7 +16,7 @@ namespace Bosses
         // La liste des classes d'instruments
         public Flute flute;
         public Trompette trompette;
-        private List<Instrument> instruments=new List<Instrument>();
+        private List<Instrument> instruments = new List<Instrument>();
 
         void Start()
         {
@@ -32,7 +32,7 @@ namespace Bosses
                 Attack();
             }
         }
-        
+
         protected async override void Attack()
         {
             if (inCooldown) return;
@@ -42,10 +42,9 @@ namespace Bosses
             Random rnd = new Random();
             int attack = rnd.Next(instruments.Count);
             instruments[attack].PlaySound();
-            
+
             await Task.Delay(cooldown);
             inCooldown = false;
-
         }
     }
 }
