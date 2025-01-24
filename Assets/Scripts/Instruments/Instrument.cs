@@ -25,13 +25,17 @@ namespace Instruments
         {
             if (Input.GetKeyDown(key))
             {
-                if (audioSource != null && sound != null)
-                {
-                    audioSource.clip = sound;
-                    audioSource.Play();
-                }
-                
+                PlaySound();
                 //TODO : attaque de l'instrument
+            }
+        }
+
+        public void PlaySound()
+        {
+            if (audioSource != null && sound != null)
+            {
+                audioSource.clip = sound;
+                audioSource.Play();
             }
         }
     }
