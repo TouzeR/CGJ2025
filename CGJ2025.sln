@@ -1,11 +1,30 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Editor", "FastScriptReload.Editor.csproj", "{4F2D6BF1-292A-094A-5294-AD9BD2837EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C7C257DA-6158-C582-24DB-1488F7B30CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Runtime", "FastScriptReload.Runtime.csproj", "{9445F7B9-C2AD-AAE7-BCF1-7CCA27845367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F2D6BF1-292A-094A-5294-AD9BD2837EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2D6BF1-292A-094A-5294-AD9BD2837EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2D6BF1-292A-094A-5294-AD9BD2837EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2D6BF1-292A-094A-5294-AD9BD2837EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C257DA-6158-C582-24DB-1488F7B30CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C257DA-6158-C582-24DB-1488F7B30CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C257DA-6158-C582-24DB-1488F7B30CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C257DA-6158-C582-24DB-1488F7B30CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9445F7B9-C2AD-AAE7-BCF1-7CCA27845367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9445F7B9-C2AD-AAE7-BCF1-7CCA27845367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9445F7B9-C2AD-AAE7-BCF1-7CCA27845367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9445F7B9-C2AD-AAE7-BCF1-7CCA27845367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
