@@ -11,6 +11,7 @@ namespace Bosses
 {
     public class Knight : Boss
     {
+
         private bool inCooldown = false;
         public int cooldown;
         private bool isAttacking = false;
@@ -24,17 +25,21 @@ namespace Bosses
 
         public async void Start()
         {
-            health = 10;
+            maxHealth = 3;
             instruments.Add(flute);
             instruments.Add(trompette);
             damage = 5;
 
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
+<<<<<<< HEAD
 
             if (healthManager == null)
             {
                 Debug.LogError("healthManager n'a pas été trouvé dans la scène.");
             }
+=======
+            base.Start();
+>>>>>>> origin/features/lifeBarre
         }
 
         void Update()
@@ -59,6 +64,7 @@ namespace Bosses
             if (playerRespondedCorrectly)
             {
                 health -= 1;
+                healthBar.SetHealth(health);
                 Debug.Log("Health du boss : " + health);
             }
             else
