@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Instruments;
+using Player;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = System.Random;
@@ -18,6 +19,8 @@ namespace Bosses
         public Flute flute;
         public Trompette trompette;
         private List<Instrument> instruments = new List<Instrument>();
+        
+        public HealthManager healthManager;
 
         void Start()
         {
@@ -25,6 +28,8 @@ namespace Bosses
             instruments.Add(flute);
             instruments.Add(trompette);
             damage = 5;
+            
+            healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
         }
 
         void Update()
@@ -36,6 +41,7 @@ namespace Bosses
             else
             {
                 Debug.Log("Dead");
+                //TODO mort du boss
             }
         }
 
@@ -55,10 +61,11 @@ namespace Bosses
             if (playerRespondedCorrectly)
             {
                 health -= 1;
+                Debug.Log("Health du boss : " + health);
             }
             else
             {
-                Debug.Log("Dégâts subis par le joueur !");
+                healthManager.TakeDamage();
             }
 
             await Task.Delay(cooldown);
@@ -77,6 +84,11 @@ namespace Bosses
                 if (Input.GetKeyDown(expectedKey))
                 {
                     playerResponded = true;
+                    break;
+                }
+                
+                if (Input.anyKeyDown && !Input.GetKeyDown(expectedKey))
+                {
                     break;
                 }
 

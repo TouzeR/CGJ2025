@@ -13,15 +13,6 @@ namespace Player
         public async void Start()
         {
             health = 3;
-            
-            //TODO zone de test
-            
-            Debug.Log("début timer");
-            await Task.Delay(10000);
-            TakeDamage();
-            await Task.Delay(10000);
-            Heal();
-            
         }
 
         public void TakeDamage()
