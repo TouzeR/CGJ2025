@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,23 +10,30 @@ namespace Player
     {
         public float health;
         public List<Image> heartImages;
+        public GameOverManager gameOverManager;
 
         public async void Start()
         {
             health = 3;
+            gameOverManager = FindFirstObjectByType(typeof(GameOverManager)) as GameOverManager;
+
+            if (gameOverManager == null)
+            {
+                Debug.LogError("GameOverManager n'a pas été trouvé dans la scène.");
+            }
         }
 
         public void TakeDamage()
         {
-            if (health > 0)
+            
+            if (health > 1)
             {
                 health -= 1;
                 UpdateHeartUI();
-            }
-            else
+            } else
             {
-                Debug.Log("T'AS PERDU GROS NAZE");
-                //TODO : Game Over
+                Debug.Log("perdu");
+                gameOverManager.GameOver();
             }
         }
 

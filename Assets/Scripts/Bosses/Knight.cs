@@ -19,34 +19,32 @@ namespace Bosses
         public Flute flute;
         public Trompette trompette;
         private List<Instrument> instruments = new List<Instrument>();
-        
-        public HealthManager healthManager;
 
-        void Start()
+        private HealthManager healthManager;
+
+        public async void Start()
         {
             health = 10;
             instruments.Add(flute);
             instruments.Add(trompette);
             damage = 5;
-            
+
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
+
+            if (healthManager == null)
+            {
+                Debug.LogError("healthManager n'a pas été trouvé dans la scène.");
+            }
         }
 
         void Update()
         {
-            if (health > 0)
-            {
-                Attack();
-            }
-            else
-            {
-                Debug.Log("Dead");
-                //TODO mort du boss
-            }
+            base.Update();
         }
 
         protected async override void Attack()
         {
+            //TODO le boss continue d'attaquer même si le joueur est mort !
             if (inCooldown) return;
 
             inCooldown = true;
@@ -70,7 +68,6 @@ namespace Bosses
 
             await Task.Delay(cooldown);
             inCooldown = false;
-
         }
 
         private async Task<bool> WaitForPlayerResponse(KeyCode expectedKey)
@@ -86,7 +83,7 @@ namespace Bosses
                     playerResponded = true;
                     break;
                 }
-                
+
                 if (Input.anyKeyDown && !Input.GetKeyDown(expectedKey))
                 {
                     break;

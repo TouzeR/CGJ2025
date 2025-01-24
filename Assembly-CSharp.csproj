@@ -49,6 +49,7 @@
     <Compile Include="Assets\Scripts\Player\HealthManager.cs" />
     <Compile Include="Assets\Scripts\Bosses\Knight.cs" />
     <Compile Include="Assets\Scripts\Instruments\Instrument.cs" />
+    <Compile Include="Assets\Scripts\UI\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\Bosses\Boss.cs" />
     <Compile Include="Assets\Scripts\Instruments\Flute.cs" />
     <Compile Include="Assets\Scripts\Instruments\Trompette.cs" />
