@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     float Horizontal;
 
+    public Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,7 +23,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+
         movement = new Vector2(horizontalInput, 0);
+        Debug.Log(isGrounded());
         if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
     {
         shouldJump = true;

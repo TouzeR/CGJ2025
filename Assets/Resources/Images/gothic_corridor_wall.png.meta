@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gothic_corridor_wall_0: -2782665210830127817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
