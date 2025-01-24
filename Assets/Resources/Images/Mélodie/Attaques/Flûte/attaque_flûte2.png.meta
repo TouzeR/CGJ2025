@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: ffa637be006948688d204c7bc3eacded
+guid: 455c5c0c1b3dfb7418e201e6d3105073
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 38399311284618054
-    second: flute_ui_0
+      213: -6648944087217562304
+    second: "attaque_fl\xFBte2_0"
+  - first:
+      213: -8555867749240687830
+    second: "attaque_fl\xFBte2_1"
+  - first:
+      213: -7365593349826740828
+    second: "attaque_fl\xFBte2_2"
+  - first:
+      213: -8605706014347250068
+    second: "attaque_fl\xFBte2_3"
+  - first:
+      213: -8107491524016299161
+    second: "attaque_fl\xFBte2_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flute_ui_0
+      name: "attaque_fl\xFBte2_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 426
-        height: 387
+        width: 783
+        height: 1585
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6434dbc58fb688000800000000000000
-      internalID: 38399311284618054
+      spriteID: 04d96fd84943ab3a0800000000000000
+      internalID: -6648944087217562304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "attaque_fl\xFBte2_1"
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 782
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23b94dec93734980800000000000000
+      internalID: -8555867749240687830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "attaque_fl\xFBte2_2"
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 764
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adf8977fd728c990800000000000000
+      internalID: -7365593349826740828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "attaque_fl\xFBte2_3"
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 720
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66b36599f3629880800000000000000
+      internalID: -8605706014347250068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "attaque_fl\xFBte2_4"
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 726
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763a48b0a676c7f80800000000000000
+      internalID: -8107491524016299161
       vertices: []
       indices: 
       edges: []
@@ -134,8 +234,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      flute_ui_0: 38399311284618054
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
