@@ -3,14 +3,18 @@ using UnityEngine;
 
 public abstract class Boss : MonoBehaviour
 {
-    public float health;
+    public int health;
+    public int maxHealth;
+    public HealthBar healthBar;
     public float damage;
 
     
     //public Level level;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected void Start()
     {
+        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         
     }
 
