@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gothic_corridor_floor_0: -436172233809422245
+      gothic_corridor_floor_1: -8482630085309807515
+      gothic_corridor_floor_10: -5611370979041986794
+      gothic_corridor_floor_11: -7489502332469992276
+      gothic_corridor_floor_12: -3747080699715321628
+      gothic_corridor_floor_13: -880502983955530323
+      gothic_corridor_floor_14: 1999999966616095759
+      gothic_corridor_floor_15: 1733092145292124251
+      gothic_corridor_floor_16: 6184132048000658985
+      gothic_corridor_floor_17: 5264756671448645146
+      gothic_corridor_floor_18: -6975861971276157211
+      gothic_corridor_floor_19: 3222470333796943808
+      gothic_corridor_floor_2: 5744951231811405206
+      gothic_corridor_floor_20: -7525255968134345268
+      gothic_corridor_floor_21: 1532378246236506469
+      gothic_corridor_floor_22: 8750273702180866111
+      gothic_corridor_floor_23: -3414374841657131296
+      gothic_corridor_floor_3: -4647838325013270573
+      gothic_corridor_floor_4: 1550777703156212052
+      gothic_corridor_floor_5: -3761149616829505899
+      gothic_corridor_floor_6: 5495243939503111166
+      gothic_corridor_floor_7: -3372338650040147630
+      gothic_corridor_floor_8: 4178781482017576517
+      gothic_corridor_floor_9: -2384993471681672524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

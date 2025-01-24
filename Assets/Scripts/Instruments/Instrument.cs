@@ -41,5 +41,10 @@ namespace Instruments
                 audioSource.Play();
             }
         }
+
+        public KeyCode getKey()
+        {
+            return key;
+        }
     }
 }
