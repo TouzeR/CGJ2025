@@ -19,6 +19,8 @@ namespace Player
             Debug.Log("début timer");
             await Task.Delay(10000);
             TakeDamage();
+            await Task.Delay(10000);
+            Heal();
             
         }
 
@@ -31,7 +33,7 @@ namespace Player
             }
             else
             {
-                Debug.Log("TAS PERDU GROS NAZE");
+                Debug.Log("T'AS PERDU GROS NAZE");
                 //TODO : Game Over
             }
         }
