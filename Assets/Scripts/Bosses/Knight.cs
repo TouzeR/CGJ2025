@@ -76,7 +76,7 @@ namespace Bosses
         private async Task<bool> WaitForPlayerResponse(KeyCode expectedKey)
         {
             bool playerResponded = false;
-            float timeLimit = 5f;
+            float timeLimit = 5f;   
             float elapsedTime = 0f;
 
             while (elapsedTime < timeLimit)
