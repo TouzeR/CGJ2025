@@ -1,6 +1,12 @@
-﻿namespace DefaultNamespace;
-
-public class PlayerController
+﻿namespace DefaultNamespace
 {
-    
+    public class PlayerController
+    {
+
+        public void Play()
+        {
+            // Play the instrument
+        }
+
+    }
 }
