@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Instruments;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = System.Random;
@@ -11,14 +12,17 @@ namespace Bosses
     {
         private bool inCooldown = false;
         public int cooldown;
-        
-        List<int> listIntruments = new List<int>();
+
+        // La liste des classes d'instruments
+        public Flute flute;
+        public Trompette trompette;
+        private List<Instrument> instruments=new List<Instrument>();
 
         void Start()
         {
             health = 10;
-            listIntruments.Add(1);
-            listIntruments.Add(2);
+            instruments.Add(flute);
+            instruments.Add(trompette);
         }
 
         void Update()
@@ -36,7 +40,9 @@ namespace Bosses
             inCooldown = true;
 
             Random rnd = new Random();
-            int attack = rnd.Next(listIntruments.Count);
+            int attack = rnd.Next(instruments.Count);
+            Debug.Log("Attaque d'instrument");
+            instruments[attack].PlaySound();
             
             await Task.Delay(cooldown);
             inCooldown = false;

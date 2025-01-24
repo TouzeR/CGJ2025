@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Instruments
@@ -11,15 +12,17 @@ namespace Instruments
         protected KeyCode key;
         private AudioSource audioSource;
 
-        public virtual void Start()
+        public void Start()
         {
+            Debug.Log("hh");
             audioSource = gameObject.GetComponent<AudioSource>();
             if (audioSource == null)
             {
                 audioSource = gameObject.AddComponent<AudioSource>();
             }
+            
         }
-        
+
 
         public virtual void Update()
         {
@@ -32,8 +35,10 @@ namespace Instruments
 
         public void PlaySound()
         {
+            Debug.Log(audioSource+ " : "+ sound);
             if (audioSource != null && sound != null)
             {
+                Debug.Log("audio");
                 audioSource.clip = sound;
                 audioSource.Play();
             }
