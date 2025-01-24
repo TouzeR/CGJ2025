@@ -1,6 +1,7 @@
 using System;
 using Player;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public abstract class Boss : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public abstract class Boss : MonoBehaviour
     public HealthBar healthBar;
     public float damage;
     private HealthManager HealthManager;
+    private bool isRespawning = false;
+    protected int level = 1;
+
 
     
     //public Level level;
@@ -24,11 +28,28 @@ public abstract class Boss : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-        if (health > 0 /*&& HealthManager.health > 1*/)
+    if (health > 0 /*&& HealthManager.health > 1*/)
+    {
+        Attack();
+    }
+    else
+    {
+        if (!isRespawning)
         {
-            Attack();
+            isRespawning = true;
+            Respawn();
         }
     }
+}
+
+private async void Respawn()
+{
+    await Task.Delay(5000);
+    health = maxHealth + level;
+    level ++;
+    healthBar.SetHealth(health);
+    isRespawning = false;
+}
 
     protected abstract void Attack();
 }
