@@ -10,7 +10,9 @@ namespace Instruments
         public AudioClip sound;
         protected Image image;
         protected KeyCode key;
-        private AudioSource audioSource;
+        public AudioSource audioSource;
+
+        public Animator animator;
 
         public void Start()
         {
@@ -27,10 +29,18 @@ namespace Instruments
         {
             if (Input.GetKeyDown(key))
             {
+                animator.SetBool(name + "Played",true);
+
                 PlaySound();
+
                 //TODO : attaque de l'instrument
             }
+            if (!audioSource.isPlaying) {
+                animator.SetBool(name + "Played",false);
+            }
         }
+
+
 
         public void PlaySound()
         {

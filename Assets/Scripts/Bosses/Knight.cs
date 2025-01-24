@@ -50,12 +50,12 @@ namespace Bosses
             if (inCooldown) return;
 
             inCooldown = true;
-
+            
             Random rnd = new Random();
             int attack = rnd.Next(instruments.Count);
+            animator.SetBool("isAttacking",true);
             instruments[attack].PlaySound();
             Debug.Log("Attaque boss : " + instruments[attack].getKey());
-
             bool playerRespondedCorrectly = await WaitForPlayerResponse(instruments[attack].getKey());
 
             if (playerRespondedCorrectly)
@@ -63,10 +63,12 @@ namespace Bosses
                 health -= 1;
                 healthBar.SetHealth(health);
                 Debug.Log("Health du boss : " + health);
+                animator.SetBool("isAttacking",false);
             }
             else
             {
                 healthManager.TakeDamage();
+                animator.SetBool("isAttacking",false);
             }
 
             await Task.Delay(cooldown);
