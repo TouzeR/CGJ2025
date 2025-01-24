@@ -31,15 +31,12 @@ namespace Bosses
             damage = 5;
 
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
-<<<<<<< HEAD
 
             if (healthManager == null)
             {
                 Debug.LogError("healthManager n'a pas été trouvé dans la scène.");
             }
-=======
             base.Start();
->>>>>>> origin/features/lifeBarre
         }
 
         void Update()
