@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
 
         movement = new Vector2(horizontalInput, 0);
-        Debug.Log(isGrounded());
         if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
     {
         shouldJump = true;

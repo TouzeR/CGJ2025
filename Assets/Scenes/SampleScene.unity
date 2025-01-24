@@ -896,6 +896,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6878262180932611940, guid: 681733088bfcaad4f9d5d3fdbd937cd1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae420e3677bdb1d49928c3dddba0e490, type: 3}
     - target: {fileID: 8901409983394694916, guid: 681733088bfcaad4f9d5d3fdbd937cd1, type: 3}
       propertyPath: m_Name
       value: UI_Pv_Instruments
