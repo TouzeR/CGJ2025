@@ -1116,6 +1116,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6110802215386625801, guid: b18edad6ff2005346aade6c572c3a49b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -474
+      objectReference: {fileID: 0}
     - target: {fileID: 7084407258787957918, guid: b18edad6ff2005346aade6c572c3a49b, type: 3}
       propertyPath: m_Name
       value: Boss
