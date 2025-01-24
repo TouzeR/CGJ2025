@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      trompette_ui_0: 3949206006937844488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
