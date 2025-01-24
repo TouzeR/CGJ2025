@@ -834,7 +834,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bosse_floor_0: 1634581245727730955
+      Bosse_floor_1: 8854144317321875987
+      Bosse_floor_10: -673403545548201214
+      Bosse_floor_11: -6899591995046732342
+      Bosse_floor_12: 8983069973711351538
+      Bosse_floor_13: -1620587380557248049
+      Bosse_floor_14: -4486960385226417394
+      Bosse_floor_15: 6047859307984912296
+      Bosse_floor_16: 5547304843861839294
+      Bosse_floor_17: -8641621058071797106
+      Bosse_floor_18: 8492276300923779372
+      Bosse_floor_19: -6640487766860895226
+      Bosse_floor_2: -3750962395778446560
+      Bosse_floor_20: 184749422480064508
+      Bosse_floor_21: -7535116392064062550
+      Bosse_floor_22: -4688367465195987295
+      Bosse_floor_23: -755692774926597646
+      Bosse_floor_24: 3635948498054854561
+      Bosse_floor_25: -8278041156656391602
+      Bosse_floor_26: 1484868550347871257
+      Bosse_floor_27: -515982385791829347
+      Bosse_floor_28: -4579740233089594213
+      Bosse_floor_3: -4152679380105255462
+      Bosse_floor_4: -8204981816130752308
+      Bosse_floor_5: 7252948774435363001
+      Bosse_floor_6: 4944592176846531107
+      Bosse_floor_7: -3129695267811173354
+      Bosse_floor_8: 6150452889207920485
+      Bosse_floor_9: 1343792412756741641
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
