@@ -1,33 +1,22 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace Instruments
 {
     public class Trompette : Instrument
     {
-        private new string name = "Trompette";
-        private AudioClip sound;
-        private Sprite image;
-        private new KeyCode key = KeyCode.G;
-        
-        
-        public new void Start()
+        private new void Start()
         {
+            name = "Trompette";
+            key = KeyCode.G;
+            image = GetComponent<Image>();
+            
+            base.Start();
+        }
 
-        }
-        
-        public new void Stop()
+        private new void Update()
         {
-            // Stop the flute
+            base.Update();
         }
-        
-        public new void Update()
-        {
-            // Update the flute
-        }
-        
-        
-        
     }
 }

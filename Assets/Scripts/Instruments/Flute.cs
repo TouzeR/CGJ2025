@@ -1,35 +1,22 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace Instruments
 {
     public class Flute : Instrument
     {
-        private new string name = "Flûte";
-        private AudioClip sound;
-        private Sprite image;
-        private new KeyCode key = KeyCode.F;
-        
-        /**
-         * On attribue les bonnes valeurs aux variables de la classe
-         */
-        public new void Start()
+        private new void Start()
         {
+            name = "Flûte";
+            key = KeyCode.F;
+            image = GetComponent<Image>();
+            
+            base.Start();
+        }
 
-        }
-        
-        public new void Stop()
+        private new void Update()
         {
-            // Stop the flute
+            base.Update();
         }
-        
-        public new void Update()
-        {
-            // Update the flute
-        }
-        
-        
-        
     }
 }

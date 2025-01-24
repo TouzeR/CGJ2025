@@ -3,29 +3,36 @@ using UnityEngine.UI;
 
 namespace Instruments
 {
-    public class Instrument
+    public class Instrument : MonoBehaviour
     {
-        private string name;
-        private AudioClip sound;
-        private Image image;
-        private KeyCode key;
-    
-    
-        public void Start()
+        public string name;
+        public AudioClip sound;
+        protected Image image;
+        protected KeyCode key;
+        private AudioSource audioSource;
+
+        public virtual void Start()
         {
-            // Start the instrument
+            audioSource = gameObject.GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+            }
         }
-    
-        public void Stop()
+        
+
+        public virtual void Update()
         {
-            // Stop the instrument
+            if (Input.GetKeyDown(key))
+            {
+                if (audioSource != null && sound != null)
+                {
+                    audioSource.clip = sound;
+                    audioSource.Play();
+                }
+                
+                //TODO : attaque de l'instrument
+            }
         }
-    
-        public void Update()
-        {
-            // Update the instrument
-        }
-    
-    
     }
 }
