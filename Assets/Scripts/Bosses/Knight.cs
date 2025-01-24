@@ -41,7 +41,6 @@ namespace Bosses
 
             Random rnd = new Random();
             int attack = rnd.Next(instruments.Count);
-            Debug.Log("Attaque d'instrument");
             instruments[attack].PlaySound();
             
             await Task.Delay(cooldown);

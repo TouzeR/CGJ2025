@@ -14,7 +14,6 @@ namespace Instruments
 
         public void Start()
         {
-            Debug.Log("hh");
             audioSource = gameObject.GetComponent<AudioSource>();
             if (audioSource == null)
             {
@@ -38,7 +37,6 @@ namespace Instruments
             Debug.Log(audioSource+ " : "+ sound);
             if (audioSource != null && sound != null)
             {
-                Debug.Log("audio");
                 audioSource.clip = sound;
                 audioSource.Play();
             }
