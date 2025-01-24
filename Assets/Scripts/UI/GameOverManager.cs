@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace UI
 {
@@ -8,28 +9,17 @@ namespace UI
         public GameObject gameOverPanel;
         public GameObject boutonGameOver;
 
-        public void Update()
+        void Start()
         {
-            //TODO : bouton cliqué après mort pour relancer jeu MARCHE PAS
-            if (Input.GetMouseButtonDown(0))
+            if (boutonGameOver == null)
             {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-
-                if (Physics.Raycast(ray, out hit))
-                {
-                    if (hit.transform.gameObject == boutonGameOver)
-                    {
-                        gameOverPanel.SetActive(false);
-                    }
-                }
+                Debug.LogError("boutonGameOver n'est pas assigné dans l'inspecteur.");
             }
-        }
 
-        public void Start()
-        {
             gameOverPanel.SetActive(false);
         }
+
+        
 
         public void GameOver()
         {
