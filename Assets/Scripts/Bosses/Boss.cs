@@ -4,16 +4,21 @@ using UnityEngine;
 
 public abstract class Boss : MonoBehaviour
 {
-    public float health;
+    public int health;
+    public int maxHealth;
+    public HealthBar healthBar;
     public float damage;
     private HealthManager HealthManager;
 
     
     //public Level level;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected void Start()
     {
         HealthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
+        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+        
     }
 
     // Update is called once per frame
