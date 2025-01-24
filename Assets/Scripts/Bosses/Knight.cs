@@ -23,7 +23,10 @@ namespace Bosses
 
         void Update()
         {
-            base.Update();
+            if (health > 0)
+            {
+                Attack();
+            }
         }
         
         protected async override void Attack()
