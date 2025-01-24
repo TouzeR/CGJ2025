@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Instruments
@@ -11,28 +12,39 @@ namespace Instruments
         protected KeyCode key;
         private AudioSource audioSource;
 
-        public virtual void Start()
+        public void Start()
         {
             audioSource = gameObject.GetComponent<AudioSource>();
             if (audioSource == null)
             {
                 audioSource = gameObject.AddComponent<AudioSource>();
             }
+            
         }
-        
+
 
         public virtual void Update()
         {
             if (Input.GetKeyDown(key))
             {
-                if (audioSource != null && sound != null)
-                {
-                    audioSource.clip = sound;
-                    audioSource.Play();
-                }
-                
+                PlaySound();
                 //TODO : attaque de l'instrument
             }
+        }
+
+        public void PlaySound()
+        {
+            Debug.Log(audioSource+ " : "+ sound);
+            if (audioSource != null && sound != null)
+            {
+                audioSource.clip = sound;
+                audioSource.Play();
+            }
+        }
+
+        public KeyCode getKey()
+        {
+            return key;
         }
     }
 }

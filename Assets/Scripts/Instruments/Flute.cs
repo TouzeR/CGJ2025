@@ -1,22 +1,32 @@
-﻿using UnityEngine;
+﻿// Flute.cs
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Instruments
 {
     public class Flute : Instrument
     {
-        private new void Start()
+        public Flute()
         {
             name = "Flûte";
-            key = KeyCode.F;
+            key = KeyCode.G;
+        }
+
+        void Start()
+        {
             image = GetComponent<Image>();
-            
             base.Start();
         }
 
         private new void Update()
         {
             base.Update();
+        }
+
+
+        public new void PlaySound()
+        {
+            base.PlaySound();
         }
     }
 }
