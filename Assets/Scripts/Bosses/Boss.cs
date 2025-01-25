@@ -49,14 +49,13 @@ public abstract class Boss : MonoBehaviour
 
 private async void Respawn()
 {
-    await Task.Delay(5000);
+    await Task.Delay(7000);
     health = maxHealth + level;
     level ++;
     healthBar.SetMaxHealth(health);
     healthBar.SetHealth(health);
     isRespawning = false;
     animator.SetBool("isDead", false);
-    Debug.Log("Boss Respawned" + health + level);
 
 }
 

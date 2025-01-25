@@ -46,6 +46,8 @@ namespace Bosses
                 Debug.LogError("healthManager n'a pas été trouvé dans la scène.");
             }
             base.Start();
+            await Task.Delay(7000);
+
         }
 
         void Update()
