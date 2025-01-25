@@ -542,6 +542,8 @@ MonoBehaviour:
   - {fileID: 1970460538}
   - {fileID: 1924582633}
   gameOverManager: {fileID: 0}
+  damageSound: {fileID: 8300000, guid: d4fd5bcec8fc49f4aaf3d8dba73e2555, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &313743217
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,8 @@ namespace Player
         public float health;
         public List<Image> heartImages;
         public GameOverManager gameOverManager;
+        public AudioClip damageSound;
+        private AudioSource audioSource;
 
         public async void Start()
         {
@@ -21,16 +23,28 @@ namespace Player
             {
                 Debug.LogError("GameOverManager n'a pas été trouvé dans la scène.");
             }
+
+            audioSource = gameObject.GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+            }
         }
 
         public void TakeDamage()
         {
-            
+            if (audioSource != null && damageSound != null)
+            {
+                audioSource.clip = damageSound;
+                audioSource.Play();
+            }
+
             if (health > 1)
             {
                 health -= 1;
                 UpdateHeartUI();
-            } else
+            }
+            else
             {
                 health -= 1;
                 Debug.Log("perdu");
