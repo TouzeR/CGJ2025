@@ -784,7 +784,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attaque_banjon 1_0: -4241689253923791095
+      Attaque_banjon 1_1: -6527790293785959691
+      Attaque_banjon 1_10: 1168467256252368253
+      Attaque_banjon 1_11: -8035100029449303871
+      Attaque_banjon 1_12: 8748017104750101485
+      Attaque_banjon 1_13: 4532639005603024168
+      Attaque_banjon 1_14: -7315145636616561583
+      Attaque_banjon 1_15: -6707738083294742941
+      Attaque_banjon 1_16: 399975719710716101
+      Attaque_banjon 1_17: -2319212969358686882
+      Attaque_banjon 1_18: -1864913996378339957
+      Attaque_banjon 1_19: -2984457837703589092
+      Attaque_banjon 1_2: 2771088264666412299
+      Attaque_banjon 1_20: 3828394454563210896
+      Attaque_banjon 1_21: 1585849693105604048
+      Attaque_banjon 1_22: -1826077809790429930
+      Attaque_banjon 1_23: -2834853052831046826
+      Attaque_banjon 1_24: -9059884690378251946
+      Attaque_banjon 1_25: 2160436944752466373
+      Attaque_banjon 1_26: -8186685670042666521
+      Attaque_banjon 1_3: -3101749046043654414
+      Attaque_banjon 1_4: -1462189132451303264
+      Attaque_banjon 1_5: -1529231537021418772
+      Attaque_banjon 1_6: -8889597821020498122
+      Attaque_banjon 1_7: -950141666008184876
+      Attaque_banjon 1_8: -5621279501150168692
+      Attaque_banjon 1_9: 825384077269633782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

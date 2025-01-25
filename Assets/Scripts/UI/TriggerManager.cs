@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Player;
+using System.Threading.Tasks;
 namespace UI
 {
     public class TriggerManager : MonoBehaviour
@@ -19,8 +20,10 @@ namespace UI
         {
             gameOverPanel.SetActive(false);
             //TODO : Relancer le jeu
-            boss.Reset();
             healthManager.Reset();
+            boss.Reset();
+            
+
 
         }
     }

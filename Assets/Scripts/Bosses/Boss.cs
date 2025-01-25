@@ -31,13 +31,14 @@ public abstract class Boss : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
+        
     if (health > 0 && HealthManager.health > 0)
     {
         Attack();
     }
     else
     {
-        if (!isRespawning)
+        if (!isRespawning && HealthManager.health > 0)
         {
             animator.SetBool("isDead", true);
             isRespawning = true;
@@ -55,6 +56,7 @@ private async void Respawn()
     healthBar.SetHealth(health);
     isRespawning = false;
     animator.SetBool("isDead", false);
+    Debug.Log("Boss Respawned" + health + level);
 
 }
 
