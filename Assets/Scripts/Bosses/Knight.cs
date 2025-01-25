@@ -13,7 +13,7 @@ namespace Bosses
     {
 
         private bool inCooldown = false;
-        public int cooldown;
+        private int cooldown;
         private bool isAttacking = false;
 
         // La liste des classes d'instruments
@@ -38,6 +38,9 @@ namespace Bosses
             instruments.Add(banjo);
             instruments.Add(ocarina);
             damage = 5;
+            
+            Random rnd = new Random();
+            cooldown = rnd.Next(6000, 15000);
 
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
 
