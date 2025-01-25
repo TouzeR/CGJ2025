@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attaque trompette2_0: 7659742941953746131
+      attaque trompette2_1: -2869247786402882403
+      attaque trompette2_10: 8585625904131909255
+      attaque trompette2_11: 1155236371861441761
+      attaque trompette2_12: 5215876534202219313
+      attaque trompette2_13: -6804486092527342715
+      attaque trompette2_14: 8653598408565687155
+      attaque trompette2_15: -4573563783907458933
+      attaque trompette2_2: 2387964094085414873
+      attaque trompette2_3: -166267482958307073
+      attaque trompette2_4: 6156688481993696452
+      attaque trompette2_5: -8695844599256245213
+      attaque trompette2_6: 264072669029795676
+      attaque trompette2_7: 4523492904298814545
+      attaque trompette2_8: 3466540105461169448
+      attaque trompette2_9: -3674917998407227017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

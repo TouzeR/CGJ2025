@@ -609,7 +609,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attaque_harpe1_0: 8128817581166103612
+      attaque_harpe1_1: -8414192424188020247
+      attaque_harpe1_10: 7295886395573319467
+      attaque_harpe1_11: -1267136876799563644
+      attaque_harpe1_12: -8856590229894182011
+      attaque_harpe1_13: -5620839770093662732
+      attaque_harpe1_14: -2278300057011984063
+      attaque_harpe1_15: -2097818605299652429
+      attaque_harpe1_16: 8334521159315346296
+      attaque_harpe1_17: 1991986714945608414
+      attaque_harpe1_18: 9214284478878722956
+      attaque_harpe1_19: 1773924492383266274
+      attaque_harpe1_2: -2141848474830914161
+      attaque_harpe1_3: -1315815041937670010
+      attaque_harpe1_4: -3795783256401981961
+      attaque_harpe1_5: -6290802796270550328
+      attaque_harpe1_6: 3945799989058976156
+      attaque_harpe1_7: 1228481055775459292
+      attaque_harpe1_8: 6609721745928469477
+      attaque_harpe1_9: -7545540885578180512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

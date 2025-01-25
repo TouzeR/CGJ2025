@@ -1,64 +1,49 @@
 fileFormatVersion: 2
-guid: 1a2a60ca984e1454a82c8fa14e4788d5
+guid: 4bd85a547b90e0e45ad2b9132989d194
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6234220215153203348
-    second: attaque_harpe2_0
+      213: 4311443229135689279
+    second: attaque oricana 1_0
   - first:
-      213: -3032787095362508166
-    second: attaque_harpe2_1
+      213: -1738466742008966894
+    second: attaque oricana 1_1
   - first:
-      213: 5642861514365121507
-    second: attaque_harpe2_2
+      213: 5393127867919361758
+    second: attaque oricana 1_2
   - first:
-      213: 4300831084328709371
-    second: attaque_harpe2_3
+      213: 4172495289364151434
+    second: attaque oricana 1_3
   - first:
-      213: -6381579973935004040
-    second: attaque_harpe2_4
+      213: 5526811520803931954
+    second: attaque oricana 1_4
   - first:
-      213: -8970593267238853785
-    second: attaque_harpe2_5
+      213: 3214377193720807544
+    second: attaque oricana 1_5
   - first:
-      213: 2003767169927867068
-    second: attaque_harpe2_6
+      213: 3880581748720855320
+    second: attaque oricana 1_6
   - first:
-      213: -1489383249639892544
-    second: attaque_harpe2_7
+      213: 3132685867602392810
+    second: attaque oricana 1_7
   - first:
-      213: 6154170665471046703
-    second: attaque_harpe2_8
+      213: -8181862412274016359
+    second: attaque oricana 1_8
   - first:
-      213: -5127718476654678151
-    second: attaque_harpe2_9
+      213: -5854859977043286658
+    second: attaque oricana 1_9
   - first:
-      213: -6372234983112652313
-    second: attaque_harpe2_10
+      213: 135547864207093032
+    second: attaque oricana 1_10
   - first:
-      213: 4703304056314104947
-    second: attaque_harpe2_11
+      213: -3505628509635934744
+    second: attaque oricana 1_11
   - first:
-      213: -7349724294330293573
-    second: attaque_harpe2_12
+      213: -5259230891347851898
+    second: attaque oricana 1_12
   - first:
-      213: -1611170585426851373
-    second: attaque_harpe2_13
-  - first:
-      213: -6284929380468832939
-    second: attaque_harpe2_14
-  - first:
-      213: 5142465938256359230
-    second: attaque_harpe2_15
-  - first:
-      213: 5996025818099585710
-    second: attaque_harpe2_16
-  - first:
-      213: 615307060527915828
-    second: attaque_harpe2_17
-  - first:
-      213: -1277418871120653168
-    second: attaque_harpe2_18
+      213: -7165554032075922459
+    second: attaque oricana 1_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attaque_harpe2_0
+      name: attaque oricana 1_0
       rect:
         serializedVersion: 2
-        x: 134
+        x: 0
         y: 0
-        width: 627
-        height: 1608
+        width: 511
+        height: 1589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49814cf5146648650800000000000000
-      internalID: 6234220215153203348
+      spriteID: f3655ed16c255db30800000000000000
+      internalID: 4311443229135689279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attaque_harpe2_1
+      name: attaque oricana 1_1
       rect:
         serializedVersion: 2
-        x: 846
-        y: 964
-        width: 18
-        height: 10
+        x: 605
+        y: 963
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,18 +176,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7a6785843069e5d0800000000000000
-      internalID: -3032787095362508166
+      spriteID: 21199bc75b9bfd7e0800000000000000
+      internalID: -1738466742008966894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attaque_harpe2_2
+      name: attaque oricana 1_2
       rect:
         serializedVersion: 2
-        x: 867
-        y: 958
+        x: 619
+        y: 956
         width: 6
         height: 6
       alignment: 0
@@ -213,348 +198,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e3b47076a87f4e40800000000000000
-      internalID: 5642861514365121507
+      spriteID: ed6e79bc83d38da40800000000000000
+      internalID: 5393127867919361758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attaque_harpe2_3
+      name: attaque oricana 1_3
       rect:
         serializedVersion: 2
-        x: 876
+        x: 618
         y: 943
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfcee5c951f9fab30800000000000000
-      internalID: 4300831084328709371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_4
-      rect:
-        serializedVersion: 2
-        x: 853
-        y: 893
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8768bd323d21077a0800000000000000
-      internalID: -6381579973935004040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_5
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 882
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 763a7b1a3fc028380800000000000000
-      internalID: -8970593267238853785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_6
-      rect:
-        serializedVersion: 2
-        x: 734
-        y: 847
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbae328ef9fcecb10800000000000000
-      internalID: 2003767169927867068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_7
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 715
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c91cc653d5a45be0800000000000000
-      internalID: -1489383249639892544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_8
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 734
-        width: 12
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f24f7823d91086550800000000000000
-      internalID: 6154170665471046703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_9
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 687
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97f6aca963fa6d8b0800000000000000
-      internalID: -5127718476654678151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_10
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 706
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e9c04e5b064197a0800000000000000
-      internalID: -6372234983112652313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_11
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 677
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37c814bbe1e754140800000000000000
-      internalID: 4703304056314104947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_12
-      rect:
-        serializedVersion: 2
-        x: 844
-        y: 675
-        width: 15
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb2626fd1b8800a90800000000000000
-      internalID: -7349724294330293573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 659
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d9031f83e8f3a9e0800000000000000
-      internalID: -1611170585426851373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_14
-      rect:
-        serializedVersion: 2
-        x: 826
-        y: 660
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5554db6070277c8a0800000000000000
-      internalID: -6284929380468832939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 607
-        width: 20
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3fe05f5685bd5740800000000000000
-      internalID: 5142465938256359230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_16
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 643
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea295e796b9263350800000000000000
-      internalID: 5996025818099585710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_17
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 616
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4336e82f2820a8800800000000000000
-      internalID: 615307060527915828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attaque_harpe2_18
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 462
         width: 11
         height: 10
       alignment: 0
@@ -565,8 +220,228 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09419750e42b54ee0800000000000000
-      internalID: -1277418871120653168
+      spriteID: a8c7a8ddb5ea7e930800000000000000
+      internalID: 4172495289364151434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 915
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2370e0ebbcd23bc40800000000000000
+      internalID: 5526811520803931954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 918
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87088d5f603cb9c20800000000000000
+      internalID: 3214377193720807544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_6
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 910
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ee5e4a889ad530800000000000000
+      internalID: 3880581748720855320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 902
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6b35be239897b20800000000000000
+      internalID: 3132685867602392810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_8
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 883
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f59434c7f247e80800000000000000
+      internalID: -8181862412274016359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 834
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75eeaa0fdb5fbea0800000000000000
+      internalID: -5854859977043286658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_10
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 842
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d6028701091e100800000000000000
+      internalID: 135547864207093032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_11
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 639
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e50ba0b171895fc0800000000000000
+      internalID: -3505628509635934744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_12
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 616
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68543717e557307b0800000000000000
+      internalID: -5259230891347851898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_13
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 626
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e32f339296de8c90800000000000000
+      internalID: -7165554032075922459
       vertices: []
       indices: 
       edges: []
@@ -584,26 +459,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      attaque_harpe2_0: 6234220215153203348
-      attaque_harpe2_1: -3032787095362508166
-      attaque_harpe2_10: -6372234983112652313
-      attaque_harpe2_11: 4703304056314104947
-      attaque_harpe2_12: -7349724294330293573
-      attaque_harpe2_13: -1611170585426851373
-      attaque_harpe2_14: -6284929380468832939
-      attaque_harpe2_15: 5142465938256359230
-      attaque_harpe2_16: 5996025818099585710
-      attaque_harpe2_17: 615307060527915828
-      attaque_harpe2_18: -1277418871120653168
-      attaque_harpe2_2: 5642861514365121507
-      attaque_harpe2_3: 4300831084328709371
-      attaque_harpe2_4: -6381579973935004040
-      attaque_harpe2_5: -8970593267238853785
-      attaque_harpe2_6: 2003767169927867068
-      attaque_harpe2_7: -1489383249639892544
-      attaque_harpe2_8: 6154170665471046703
-      attaque_harpe2_9: -5127718476654678151
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

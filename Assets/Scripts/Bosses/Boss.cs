@@ -28,7 +28,7 @@ public abstract class Boss : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-    if (health > 0 /*&& HealthManager.health > 1*/)
+    if (health > 0 && HealthManager.health > 0)
     {
         Attack();
     }
@@ -50,6 +50,16 @@ private async void Respawn()
     healthBar.SetHealth(health);
     isRespawning = false;
 }
+
+public void Reset()
+    {
+        health = maxHealth;
+        level = 1;
+        healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(health);
+        Debug.Log("Boss Reset" + health);
+
+    }
 
     protected abstract void Attack();
 }

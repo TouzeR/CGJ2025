@@ -32,6 +32,7 @@ namespace Player
                 UpdateHeartUI();
             } else
             {
+                health -= 1;
                 Debug.Log("perdu");
                 gameOverManager.GameOver();
             }
@@ -52,6 +53,12 @@ namespace Player
             {
                 heartImages[i].enabled = i < health;
             }
+        }
+
+        public void Reset()
+        {
+            health = 3;
+            UpdateHeartUI();
         }
     }
 }
