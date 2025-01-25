@@ -1,16 +1,16 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace UI
 {
     public class StartEscapeMenuController : MonoBehaviour
     {
         public Canvas pauseMenuCanvas;
+        public MonoBehaviour bossScript; // Référence au script du boss
 
-
-        public void Start()
+        void Awake()
         {
             Time.timeScale = 0;
+            bossScript.enabled = false;
         }
 
         public void Update()
@@ -20,6 +20,7 @@ namespace UI
                 bool isActive = !pauseMenuCanvas.enabled;
                 pauseMenuCanvas.enabled = isActive;
                 Time.timeScale = isActive ? 0 : 1;
+                bossScript.enabled = !isActive;
             }
         }
     }

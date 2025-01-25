@@ -706,6 +706,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.21415877
       objectReference: {fileID: 0}
+    - target: {fileID: 5070366513114499327, guid: 88607589d87989d47915afa62a0587ec, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070366513114499327, guid: 88607589d87989d47915afa62a0587ec, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 16.08
+      objectReference: {fileID: 0}
     - target: {fileID: 5993665964864988085, guid: 88607589d87989d47915afa62a0587ec, type: 3}
       propertyPath: speed
       value: 5
@@ -1029,6 +1037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuCanvas: {fileID: 432255260}
+  bossScript: {fileID: 1452510941}
 --- !u!1 &441401568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6621441748282211033, guid: 681733088bfcaad4f9d5d3fdbd937cd1, type: 3}
@@ -1225,6 +1234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 432255260}
+  bossScript: {fileID: 1452510941}
 --- !u!114 &557617503 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2757302984176238123, guid: 681733088bfcaad4f9d5d3fdbd937cd1, type: 3}
@@ -2059,13 +2069,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 309426778177261981, guid: b18edad6ff2005346aade6c572c3a49b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7084407258787957918, guid: b18edad6ff2005346aade6c572c3a49b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1452510940}
+    - targetCorrespondingSourceObject: {fileID: 7084407258787957918, guid: b18edad6ff2005346aade6c572c3a49b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1452510941}
   m_SourcePrefab: {fileID: 100100000, guid: b18edad6ff2005346aade6c572c3a49b, type: 3}
 --- !u!4 &759067072 stripped
 Transform:
@@ -2480,6 +2494,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1452510941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452510939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31530c4a2a601e044b5dacedfa884487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
+  healthBar: {fileID: 748497341}
+  score: {fileID: 1405321659}
+  animator: {fileID: 1452510940}
+  particleSystem: {fileID: 1984596953}
+  wrapLevel: {fileID: 906069921}
+  levelText: {fileID: 137490659}
+  flute: {fileID: 1608215326}
+  trompette: {fileID: 441401570}
+  harpe: {fileID: 670053870}
+  violon: {fileID: 2072877573}
+  banjo: {fileID: 2053029478}
+  ocarina: {fileID: 195626060}
 --- !u!1 &1520183138
 GameObject:
   m_ObjectHideFlags: 0
@@ -7720,6 +7760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 432255260}
+  bossScript: {fileID: 1452510941}
 --- !u!114 &1776698593
 MonoBehaviour:
   m_ObjectHideFlags: 0
