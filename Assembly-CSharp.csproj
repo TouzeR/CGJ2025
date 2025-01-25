@@ -52,6 +52,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Instruments\Ocarina.cs" />
     <Compile Include="Assets\Scripts\UI\TriggerManager.cs" />
+    <Compile Include="Assets\Scripts\UI\StartEscapeMenuController.cs" />
+    <Compile Include="Assets\Scripts\UI\TriggerMenuPlay.cs" />
     <Compile Include="Assets\Scripts\Instruments\Harpe.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />

@@ -19,12 +19,8 @@ namespace UI
         public void OnButtonClick()
         {
             gameOverPanel.SetActive(false);
-            //TODO : Relancer le jeu
             healthManager.Reset();
             boss.Reset();
-            
-
-
         }
     }
 }
