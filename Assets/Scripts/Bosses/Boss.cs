@@ -3,6 +3,7 @@ using System.IO.Pipes;
 using Player;
 using UnityEngine;
 using System.Threading.Tasks;
+using TMPro;
 
 public abstract class Boss : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public abstract class Boss : MonoBehaviour
     private HealthManager HealthManager;
     private bool isRespawning = false;
     protected int level = 1;
+    public TextMeshProUGUI score;
 
     public Animator animator;
 
@@ -25,7 +27,8 @@ public abstract class Boss : MonoBehaviour
         HealthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-        
+        score.text = (level - 1).ToString();
+
     }
 
     // Update is called once per frame
@@ -51,6 +54,7 @@ private async void Respawn()
     await Task.Delay(5000);
     health = maxHealth + level;
     level ++;
+    score.text = (level - 1).ToString();
     healthBar.SetMaxHealth(health);
     healthBar.SetHealth(health);
     isRespawning = false;
@@ -62,6 +66,7 @@ public void Reset()
     {
         health = maxHealth;
         level = 1;
+        score.text = "0";
         healthBar.SetMaxHealth(maxHealth);
         healthBar.SetHealth(health);
         Debug.Log("Boss Reset" + health);
