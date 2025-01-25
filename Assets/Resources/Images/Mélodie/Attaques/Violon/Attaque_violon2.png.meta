@@ -609,7 +609,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attaque_violon2_0: 3107843250564898632
+      Attaque_violon2_1: -849017960441946101
+      Attaque_violon2_10: 8254319967761334604
+      Attaque_violon2_11: 2390806847807143917
+      Attaque_violon2_12: 4737985839839589317
+      Attaque_violon2_13: -5280341760195206393
+      Attaque_violon2_14: 7251979203536649196
+      Attaque_violon2_15: 5798639995912392158
+      Attaque_violon2_16: -7292193929267596358
+      Attaque_violon2_17: 1649805316443584092
+      Attaque_violon2_18: 6171644419913282992
+      Attaque_violon2_19: -958767646006874531
+      Attaque_violon2_2: 6957310888838450708
+      Attaque_violon2_3: 8514278215954039007
+      Attaque_violon2_4: -6525632866993716593
+      Attaque_violon2_5: 5485376255134727820
+      Attaque_violon2_6: 7359140513723222890
+      Attaque_violon2_7: 2046303563692784233
+      Attaque_violon2_8: 2226554724658432119
+      Attaque_violon2_9: -3600145873845262804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

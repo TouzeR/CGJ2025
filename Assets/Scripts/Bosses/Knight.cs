@@ -40,7 +40,7 @@ namespace Bosses
             damage = 5;
             
             Random rnd = new Random();
-            cooldown = rnd.Next(6000, 15000);
+            cooldown = rnd.Next(6000, 12000);
 
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
 
@@ -94,7 +94,7 @@ namespace Bosses
         private async Task<bool> WaitForPlayerResponse(KeyCode expectedKey)
         {
             bool playerResponded = false;
-            float timeLimit = 5f;   
+            float timeLimit = 6f;   
             float elapsedTime = 0f;
 
             while (elapsedTime < timeLimit)

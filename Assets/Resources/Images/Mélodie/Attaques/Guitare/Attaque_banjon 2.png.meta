@@ -659,7 +659,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attaque_banjon 2_0: 4060946186519810061
+      Attaque_banjon 2_1: 152067594221685532
+      Attaque_banjon 2_10: 3242621422700068196
+      Attaque_banjon 2_11: 3482180275574694770
+      Attaque_banjon 2_12: -7788861201322153958
+      Attaque_banjon 2_13: -5684917949187715073
+      Attaque_banjon 2_14: 2976198794530244854
+      Attaque_banjon 2_15: 1449216033330466560
+      Attaque_banjon 2_16: -1115334471784265217
+      Attaque_banjon 2_17: 204364068188514074
+      Attaque_banjon 2_18: -5531382890142663093
+      Attaque_banjon 2_19: -9153522423685507494
+      Attaque_banjon 2_2: -6486009019205989244
+      Attaque_banjon 2_20: 2332159336264974040
+      Attaque_banjon 2_21: 5619687714391208293
+      Attaque_banjon 2_3: -5622435744990697691
+      Attaque_banjon 2_4: -7201377909038391524
+      Attaque_banjon 2_5: 2886894968641512758
+      Attaque_banjon 2_6: 7930098216749213464
+      Attaque_banjon 2_7: 5488548516165453778
+      Attaque_banjon 2_8: -7487883353724830781
+      Attaque_banjon 2_9: 3503046319623371607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

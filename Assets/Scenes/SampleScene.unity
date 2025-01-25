@@ -443,7 +443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800.99994, y: 53}
+  m_AnchoredPosition: {x: -803.5, y: 155}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195626060
@@ -676,8 +676,8 @@ MonoBehaviour:
   - {fileID: 1970460538}
   - {fileID: 1924582633}
   gameOverManager: {fileID: 0}
-  damageSound: {fileID: 8300000, guid: d4fd5bcec8fc49f4aaf3d8dba73e2555, type: 3}
-  particleSystem: {fileID: 1634967220}
+  damageSound: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!1 &313743217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,7 +1354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800.99994, y: 151}
+  m_AnchoredPosition: {x: -800.99994, y: -172}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &670053868
@@ -12175,7 +12175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800.99994, y: -55}
+  m_AnchoredPosition: {x: -800.99994, y: 45.2}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053029478
@@ -12267,7 +12267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800.99994, y: -159.5}
+  m_AnchoredPosition: {x: -800.99994, y: -61.2}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072877571
