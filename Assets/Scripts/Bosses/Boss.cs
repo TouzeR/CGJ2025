@@ -47,6 +47,7 @@ private async void Respawn()
     await Task.Delay(5000);
     health = maxHealth + level;
     level ++;
+    healthBar.SetMaxHealth(health);
     healthBar.SetHealth(health);
     isRespawning = false;
 }
