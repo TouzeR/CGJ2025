@@ -459,7 +459,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attaque oricana 2_0: 8470154562633286894
+      attaque oricana 2_1: -3725605774506311819
+      attaque oricana 2_10: -3270236653854202422
+      attaque oricana 2_11: -7817825679306509566
+      attaque oricana 2_12: -2553055227425977745
+      attaque oricana 2_13: 7739388379611410360
+      attaque oricana 2_2: 739177152494801056
+      attaque oricana 2_3: -5919952531130940041
+      attaque oricana 2_4: -4869398307356176919
+      attaque oricana 2_5: -4306170955627709275
+      attaque oricana 2_6: 2563613486692861946
+      attaque oricana 2_7: 8985864044989678994
+      attaque oricana 2_8: 320360599671123949
+      attaque oricana 2_9: -4549629384547483952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
