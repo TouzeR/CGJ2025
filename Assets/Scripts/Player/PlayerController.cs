@@ -27,7 +27,8 @@ public class PlayerController : MonoBehaviour
 
         movement = new Vector2(horizontalInput, 0);
         if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
-    {
+        {
+            animator.SetBool("hasJumped",true);
         shouldJump = true;
     }
     }
@@ -37,6 +38,8 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = movement * speed;
         if(shouldJump){
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+            animator.SetBool("hasJumped",false);
+
             shouldJump = false;
         }
     }

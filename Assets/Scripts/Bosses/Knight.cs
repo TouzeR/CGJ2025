@@ -19,6 +19,11 @@ namespace Bosses
         // La liste des classes d'instruments
         public Flute flute;
         public Trompette trompette;
+        public Harpe harpe;
+        public Violon violon;
+        public Banjo banjo;
+        public Ocarina ocarina;
+        
         private List<Instrument> instruments = new List<Instrument>();
 
         private HealthManager healthManager;
@@ -28,6 +33,10 @@ namespace Bosses
             maxHealth = 3;
             instruments.Add(flute);
             instruments.Add(trompette);
+            instruments.Add(harpe);
+            instruments.Add(violon);
+            instruments.Add(banjo);
+            instruments.Add(ocarina);
             damage = 5;
 
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;

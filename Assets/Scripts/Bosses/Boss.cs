@@ -1,4 +1,5 @@
 using System;
+using System.IO.Pipes;
 using Player;
 using UnityEngine;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ public abstract class Boss : MonoBehaviour
     private HealthManager HealthManager;
     private bool isRespawning = false;
     protected int level = 1;
+
+    public Animator animator;
 
 
     
@@ -36,6 +39,7 @@ public abstract class Boss : MonoBehaviour
     {
         if (!isRespawning)
         {
+            animator.SetBool("isDead", true);
             isRespawning = true;
             Respawn();
         }
@@ -49,6 +53,8 @@ private async void Respawn()
     level ++;
     healthBar.SetHealth(health);
     isRespawning = false;
+    animator.SetBool("isDead", false);
+
 }
 
     protected abstract void Attack();
