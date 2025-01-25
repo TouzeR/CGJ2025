@@ -13,7 +13,7 @@ namespace Bosses
     {
 
         private bool inCooldown = false;
-        public int cooldown;
+        private int cooldown;
         private bool isAttacking = false;
 
         // La liste des classes d'instruments
@@ -38,6 +38,9 @@ namespace Bosses
             instruments.Add(banjo);
             instruments.Add(ocarina);
             damage = 5;
+            
+            Random rnd = new Random();
+            cooldown = rnd.Next(6000, 12000);
 
             healthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
 
@@ -71,6 +74,7 @@ namespace Bosses
 
             if (playerRespondedCorrectly)
             {
+                particleSystem.Play();
                 health -= 1;
                 healthBar.SetHealth(health);
                 Debug.Log("Health du boss : " + health);
@@ -81,6 +85,9 @@ namespace Bosses
                 healthManager.TakeDamage();
                 animator.SetBool("isAttacking",false);
             }
+            
+            await Task.Delay(500);
+            particleSystem.Stop();
 
             await Task.Delay(cooldown);
             inCooldown = false;
@@ -89,7 +96,7 @@ namespace Bosses
         private async Task<bool> WaitForPlayerResponse(KeyCode expectedKey)
         {
             bool playerResponded = false;
-            float timeLimit = 5f;   
+            float timeLimit = 6f;   
             float elapsedTime = 0f;
 
             while (elapsedTime < timeLimit)

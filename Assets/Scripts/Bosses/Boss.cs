@@ -3,6 +3,8 @@ using System.IO.Pipes;
 using Player;
 using UnityEngine;
 using System.Threading.Tasks;
+using TMPro;
+using UnityEngine.UI;
 
 public abstract class Boss : MonoBehaviour
 {
@@ -13,8 +15,13 @@ public abstract class Boss : MonoBehaviour
     private HealthManager HealthManager;
     private bool isRespawning = false;
     protected int level = 1;
+    public TextMeshProUGUI score;
 
     public Animator animator;
+    public ParticleSystem particleSystem;
+
+    public Image wrapLevel;
+    public TextMeshProUGUI levelText;
 
 
     
@@ -25,7 +32,12 @@ public abstract class Boss : MonoBehaviour
         HealthManager = FindFirstObjectByType(typeof(HealthManager)) as HealthManager;
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-        
+        score.text = (level - 1).ToString();
+        particleSystem.Stop();
+        wrapLevel.enabled = false;
+        levelText.enabled = false;
+        DisplayLevel();
+
     }
 
     // Update is called once per frame
@@ -49,25 +61,44 @@ public abstract class Boss : MonoBehaviour
 
 private async void Respawn()
 {
-    await Task.Delay(7000);
+    particleSystem.Stop();
+    await Task.Delay(6000);
     health = maxHealth + level;
     level ++;
+    score.text = (level - 1).ToString();
     healthBar.SetMaxHealth(health);
     healthBar.SetHealth(health);
     isRespawning = false;
     animator.SetBool("isDead", false);
+    DisplayLevel();
 
 }
 
 public void Reset()
     {
+        particleSystem.Stop();
         health = maxHealth;
         level = 1;
+        score.text = "0";
         healthBar.SetMaxHealth(maxHealth);
         healthBar.SetHealth(health);
         Debug.Log("Boss Reset" + health);
+        DisplayLevel();
 
     }
 
     protected abstract void Attack();
+    
+    
+    public async void DisplayLevel()
+    {
+        wrapLevel.enabled = true;
+        levelText.enabled = true;
+        levelText.text = level.ToString();
+        await Task.Delay(3000);
+        wrapLevel.enabled = false;
+        levelText.enabled = false;
+    }
 }
+
+

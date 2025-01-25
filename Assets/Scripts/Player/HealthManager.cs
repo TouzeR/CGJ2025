@@ -11,31 +11,53 @@ namespace Player
         public float health;
         public List<Image> heartImages;
         public GameOverManager gameOverManager;
+        public AudioClip damageSound;
+        private AudioSource audioSource;
+        public ParticleSystem particleSystem;
 
         public async void Start()
         {
-            health = 3;
+            particleSystem.Stop();
+
+            health = 6;
             gameOverManager = FindFirstObjectByType(typeof(GameOverManager)) as GameOverManager;
 
             if (gameOverManager == null)
             {
                 Debug.LogError("GameOverManager n'a pas été trouvé dans la scène.");
             }
+
+            audioSource = gameObject.GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+            }
         }
 
-        public void TakeDamage()
+        public async void TakeDamage()
         {
-            
+            particleSystem.Play();
+            if (audioSource != null && damageSound != null)
+            {
+                audioSource.clip = damageSound;
+                audioSource.Play();
+            }
+
             if (health > 1)
             {
                 health -= 1;
                 UpdateHeartUI();
-            } else
+            }
+            else
             {
                 health -= 1;
                 Debug.Log("perdu");
                 gameOverManager.GameOver();
             }
+            
+            
+            await Task.Delay(500);
+            particleSystem.Stop();
         }
 
         public void Heal()
@@ -57,8 +79,9 @@ namespace Player
 
         public void Reset()
         {
-            health = 3;
+            health = 6;
             UpdateHeartUI();
+            particleSystem.Stop();
         }
     }
 }

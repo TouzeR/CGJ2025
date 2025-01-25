@@ -45,7 +45,7 @@ namespace Instruments
         public void PlaySound()
         {
             Debug.Log(audioSource+ " : "+ sound);
-            if (audioSource != null && sound != null)
+            if (audioSource != null && sound != null && !audioSource.isPlaying)
             {
                 audioSource.clip = sound;
                 audioSource.Play();
