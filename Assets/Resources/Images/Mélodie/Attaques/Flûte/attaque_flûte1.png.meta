@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "attaque_fl\xFBte1_0": 388163168339934182
+      "attaque_fl\xFBte1_1": -7351832810224066435
+      "attaque_fl\xFBte1_2": -7852128787405638920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
