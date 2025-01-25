@@ -14,7 +14,7 @@ namespace Player
 
         public async void Start()
         {
-            health = 3;
+            health = 6;
             gameOverManager = FindFirstObjectByType(typeof(GameOverManager)) as GameOverManager;
 
             if (gameOverManager == null)
@@ -57,7 +57,7 @@ namespace Player
 
         public void Reset()
         {
-            health = 3;
+            health = 6;
             UpdateHeartUI();
         }
     }
