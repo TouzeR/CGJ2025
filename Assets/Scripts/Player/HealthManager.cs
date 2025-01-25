@@ -13,9 +13,12 @@ namespace Player
         public GameOverManager gameOverManager;
         public AudioClip damageSound;
         private AudioSource audioSource;
+        public ParticleSystem particleSystem;
 
         public async void Start()
         {
+            particleSystem.Stop();
+
             health = 6;
             gameOverManager = FindFirstObjectByType(typeof(GameOverManager)) as GameOverManager;
 
@@ -31,8 +34,9 @@ namespace Player
             }
         }
 
-        public void TakeDamage()
+        public async void TakeDamage()
         {
+            particleSystem.Play();
             if (audioSource != null && damageSound != null)
             {
                 audioSource.clip = damageSound;
@@ -50,6 +54,10 @@ namespace Player
                 Debug.Log("perdu");
                 gameOverManager.GameOver();
             }
+            
+            
+            await Task.Delay(500);
+            particleSystem.Stop();
         }
 
         public void Heal()
@@ -73,6 +81,7 @@ namespace Player
         {
             health = 6;
             UpdateHeartUI();
+            particleSystem.Stop();
         }
     }
 }

@@ -17,6 +17,7 @@ public abstract class Boss : MonoBehaviour
     public TextMeshProUGUI score;
 
     public Animator animator;
+    public ParticleSystem particleSystem;
 
 
     
@@ -28,6 +29,7 @@ public abstract class Boss : MonoBehaviour
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         score.text = (level - 1).ToString();
+        particleSystem.Stop();
 
     }
 
@@ -51,6 +53,7 @@ public abstract class Boss : MonoBehaviour
 
 private async void Respawn()
 {
+    particleSystem.Stop();
     await Task.Delay(5000);
     health = maxHealth + level;
     level ++;
@@ -64,6 +67,7 @@ private async void Respawn()
 
 public void Reset()
     {
+        particleSystem.Stop();
         health = maxHealth;
         level = 1;
         score.text = "0";

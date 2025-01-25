@@ -69,6 +69,7 @@ namespace Bosses
 
             if (playerRespondedCorrectly)
             {
+                particleSystem.Play();
                 health -= 1;
                 healthBar.SetHealth(health);
                 Debug.Log("Health du boss : " + health);
@@ -79,6 +80,9 @@ namespace Bosses
                 healthManager.TakeDamage();
                 animator.SetBool("isAttacking",false);
             }
+            
+            await Task.Delay(500);
+            particleSystem.Stop();
 
             await Task.Delay(cooldown);
             inCooldown = false;
