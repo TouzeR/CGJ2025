@@ -4,6 +4,7 @@ using Player;
 using UnityEngine;
 using System.Threading.Tasks;
 using TMPro;
+using UnityEngine.UI;
 
 public abstract class Boss : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public abstract class Boss : MonoBehaviour
     public Animator animator;
     public ParticleSystem particleSystem;
 
+    public Image wrapLevel;
+    public TextMeshProUGUI levelText;
+
 
     
     //public Level level;
@@ -30,6 +34,9 @@ public abstract class Boss : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
         score.text = (level - 1).ToString();
         particleSystem.Stop();
+        wrapLevel.enabled = false;
+        levelText.enabled = false;
+        DisplayLevel();
 
     }
 
@@ -62,6 +69,7 @@ private async void Respawn()
     healthBar.SetHealth(health);
     isRespawning = false;
     animator.SetBool("isDead", false);
+    DisplayLevel();
 
 }
 
@@ -74,8 +82,22 @@ public void Reset()
         healthBar.SetMaxHealth(maxHealth);
         healthBar.SetHealth(health);
         Debug.Log("Boss Reset" + health);
+        DisplayLevel();
 
     }
 
     protected abstract void Attack();
+    
+    
+    public async void DisplayLevel()
+    {
+        wrapLevel.enabled = true;
+        levelText.enabled = true;
+        levelText.text = level.ToString();
+        await Task.Delay(3000);
+        wrapLevel.enabled = false;
+        levelText.enabled = false;
+    }
 }
+
+
