@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     public Transform groundCheck;
     float Horizontal;
+    private float horizontalInput;
+
 
     public Animator animator;
 
@@ -22,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
 
         movement = new Vector2(horizontalInput, 0);
@@ -35,9 +37,10 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = movement * speed;
+        rb.linearVelocity = new Vector2( horizontalInput*speed,rb.linearVelocityY);
         if(shouldJump){
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+            rb.AddForce(Vector2.up*jumpingPower, ForceMode2D.Impulse);
+
             animator.SetBool("hasJumped",false);
 
             shouldJump = false;
