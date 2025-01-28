@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 9b9cf72bcfa5a954097c83c772f1da96
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3063570193892217779
+    second: saut6_0
+  - first:
+      213: -8878853414829750395
+    second: saut6_1
+  - first:
+      213: -8539100503838947106
+    second: saut6_2
+  - first:
+      213: -8378048013544176130
+    second: saut6_3
+  - first:
+      213: 1632280591643896648
+    second: saut6_4
+  - first:
+      213: 4808820021475957115
+    second: saut6_5
+  - first:
+      213: 612565219910154404
+    second: saut6_6
+  - first:
+      213: 698675247573849772
+    second: saut6_7
+  - first:
+      213: -1053028441955377630
+    second: saut6_8
+  - first:
+      213: -4103561057209336450
+    second: saut6_9
+  - first:
+      213: 5745531698160132786
+    second: saut6_10
+  - first:
+      213: -1976120837822724820
+    second: saut6_11
+  - first:
+      213: -8790617333469828667
+    second: saut6_12
+  - first:
+      213: -7902664460445891682
+    second: saut6_13
+  - first:
+      213: 1898309172766073882
+    second: saut6_14
+  - first:
+      213: 3608055616034976777
+    second: saut6_15
+  - first:
+      213: -6411986448821943281
+    second: saut6_16
+  - first:
+      213: 6834256860191115641
+    second: saut6_17
+  - first:
+      213: 8242816991650199700
+    second: saut6_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saut6_0
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1867
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b39b6f1cdcf38a20800000000000000
+      internalID: 3063570193892217779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1861
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5870f448cd9f7c480800000000000000
+      internalID: -8878853414829750395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1847
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8025775550f7980800000000000000
+      internalID: -8539100503838947106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1812
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5488178b13bbb80800000000000000
+      internalID: -8378048013544176130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1815
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84be2b6cc8607a610800000000000000
+      internalID: 1632280591643896648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1814
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b795cd0d45c5cb240800000000000000
+      internalID: 4808820021475957115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1802
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8f08e62d4408800800000000000000
+      internalID: 612565219910154404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1804
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca65ff89f6132b900800000000000000
+      internalID: 698675247573849772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1788
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eddd21634e261f0800000000000000
+      internalID: -1053028441955377630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1772
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d39e6c5f83d07c0800000000000000
+      internalID: -4103561057209336450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_10
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1766
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2e49a63aa3cbf40800000000000000
+      internalID: 5745531698160132786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_11
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1751
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25445461986394e0800000000000000
+      internalID: -1976120837822724820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 686
+        height: 1728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9a3222c14710680800000000000000
+      internalID: -8790617333469828667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1727
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93c4081b88145290800000000000000
+      internalID: -7902664460445891682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1718
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14669c8226285a10800000000000000
+      internalID: 1898309172766073882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_15
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1707
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9043e9b6773621230800000000000000
+      internalID: 3608055616034976777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_16
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1707
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0489550c4c0407a0800000000000000
+      internalID: -6411986448821943281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1295
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979c777a76828de50800000000000000
+      internalID: 6834256860191115641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saut6_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1114
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4983ddfa16e546270800000000000000
+      internalID: 8242816991650199700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      saut6_0: 3063570193892217779
+      saut6_1: -8878853414829750395
+      saut6_10: 5745531698160132786
+      saut6_11: -1976120837822724820
+      saut6_12: -8790617333469828667
+      saut6_13: -7902664460445891682
+      saut6_14: 1898309172766073882
+      saut6_15: 3608055616034976777
+      saut6_16: -6411986448821943281
+      saut6_17: 6834256860191115641
+      saut6_18: 8242816991650199700
+      saut6_2: -8539100503838947106
+      saut6_3: -8378048013544176130
+      saut6_4: 1632280591643896648
+      saut6_5: 4808820021475957115
+      saut6_6: 612565219910154404
+      saut6_7: 698675247573849772
+      saut6_8: -1053028441955377630
+      saut6_9: -4103561057209336450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

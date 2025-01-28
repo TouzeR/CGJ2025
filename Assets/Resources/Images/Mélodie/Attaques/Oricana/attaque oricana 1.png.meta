@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 8e053ab5fbfeb4243ab30251149f5eaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4311443229135689279
+    second: attaque oricana 1_0
+  - first:
+      213: -1738466742008966894
+    second: attaque oricana 1_1
+  - first:
+      213: 5393127867919361758
+    second: attaque oricana 1_2
+  - first:
+      213: 4172495289364151434
+    second: attaque oricana 1_3
+  - first:
+      213: 5526811520803931954
+    second: attaque oricana 1_4
+  - first:
+      213: 3214377193720807544
+    second: attaque oricana 1_5
+  - first:
+      213: 3880581748720855320
+    second: attaque oricana 1_6
+  - first:
+      213: 3132685867602392810
+    second: attaque oricana 1_7
+  - first:
+      213: -8181862412274016359
+    second: attaque oricana 1_8
+  - first:
+      213: -5854859977043286658
+    second: attaque oricana 1_9
+  - first:
+      213: 135547864207093032
+    second: attaque oricana 1_10
+  - first:
+      213: -3505628509635934744
+    second: attaque oricana 1_11
+  - first:
+      213: -5259230891347851898
+    second: attaque oricana 1_12
+  - first:
+      213: -7165554032075922459
+    second: attaque oricana 1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attaque oricana 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 511
+        height: 1589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3655ed16c255db30800000000000000
+      internalID: 4311443229135689279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 963
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21199bc75b9bfd7e0800000000000000
+      internalID: -1738466742008966894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 956
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e79bc83d38da40800000000000000
+      internalID: 5393127867919361758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_3
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 943
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c7a8ddb5ea7e930800000000000000
+      internalID: 4172495289364151434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 915
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2370e0ebbcd23bc40800000000000000
+      internalID: 5526811520803931954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 918
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87088d5f603cb9c20800000000000000
+      internalID: 3214377193720807544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_6
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 910
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ee5e4a889ad530800000000000000
+      internalID: 3880581748720855320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 902
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6b35be239897b20800000000000000
+      internalID: 3132685867602392810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_8
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 883
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f59434c7f247e80800000000000000
+      internalID: -8181862412274016359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 834
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75eeaa0fdb5fbea0800000000000000
+      internalID: -5854859977043286658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_10
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 842
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d6028701091e100800000000000000
+      internalID: 135547864207093032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_11
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 639
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e50ba0b171895fc0800000000000000
+      internalID: -3505628509635934744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_12
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 616
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68543717e557307b0800000000000000
+      internalID: -5259230891347851898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attaque oricana 1_13
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 626
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e32f339296de8c90800000000000000
+      internalID: -7165554032075922459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attaque oricana 1_0: 4311443229135689279
+      attaque oricana 1_1: -1738466742008966894
+      attaque oricana 1_10: 135547864207093032
+      attaque oricana 1_11: -3505628509635934744
+      attaque oricana 1_12: -5259230891347851898
+      attaque oricana 1_13: -7165554032075922459
+      attaque oricana 1_2: 5393127867919361758
+      attaque oricana 1_3: 4172495289364151434
+      attaque oricana 1_4: 5526811520803931954
+      attaque oricana 1_5: 3214377193720807544
+      attaque oricana 1_6: 3880581748720855320
+      attaque oricana 1_7: 3132685867602392810
+      attaque oricana 1_8: -8181862412274016359
+      attaque oricana 1_9: -5854859977043286658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

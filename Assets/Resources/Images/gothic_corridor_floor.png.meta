@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1ec160e1a041fc440bb91f2331f2ce18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -436172233809422245
+    second: gothic_corridor_floor_0
+  - first:
+      213: -8482630085309807515
+    second: gothic_corridor_floor_1
+  - first:
+      213: 5744951231811405206
+    second: gothic_corridor_floor_2
+  - first:
+      213: -4647838325013270573
+    second: gothic_corridor_floor_3
+  - first:
+      213: 1550777703156212052
+    second: gothic_corridor_floor_4
+  - first:
+      213: -3761149616829505899
+    second: gothic_corridor_floor_5
+  - first:
+      213: 5495243939503111166
+    second: gothic_corridor_floor_6
+  - first:
+      213: -3372338650040147630
+    second: gothic_corridor_floor_7
+  - first:
+      213: 4178781482017576517
+    second: gothic_corridor_floor_8
+  - first:
+      213: -2384993471681672524
+    second: gothic_corridor_floor_9
+  - first:
+      213: -5611370979041986794
+    second: gothic_corridor_floor_10
+  - first:
+      213: -7489502332469992276
+    second: gothic_corridor_floor_11
+  - first:
+      213: -3747080699715321628
+    second: gothic_corridor_floor_12
+  - first:
+      213: -880502983955530323
+    second: gothic_corridor_floor_13
+  - first:
+      213: 1999999966616095759
+    second: gothic_corridor_floor_14
+  - first:
+      213: 1733092145292124251
+    second: gothic_corridor_floor_15
+  - first:
+      213: 6184132048000658985
+    second: gothic_corridor_floor_16
+  - first:
+      213: 5264756671448645146
+    second: gothic_corridor_floor_17
+  - first:
+      213: -6975861971276157211
+    second: gothic_corridor_floor_18
+  - first:
+      213: 3222470333796943808
+    second: gothic_corridor_floor_19
+  - first:
+      213: -7525255968134345268
+    second: gothic_corridor_floor_20
+  - first:
+      213: 1532378246236506469
+    second: gothic_corridor_floor_21
+  - first:
+      213: 8750273702180866111
+    second: gothic_corridor_floor_22
+  - first:
+      213: -3414374841657131296
+    second: gothic_corridor_floor_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gothic_corridor_floor_0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 918
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5896ee0aa762f9f0800000000000000
+      internalID: -436172233809422245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 918
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564411c51e4a74a80800000000000000
+      internalID: -8482630085309807515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_2
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 901
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695cf0015ba2abf40800000000000000
+      internalID: 5744951231811405206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 918
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df23203baf8f7fb0800000000000000
+      internalID: -4647838325013270573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_4
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 904
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451e83aca18758510800000000000000
+      internalID: 1550777703156212052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_5
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 920
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ed7c5d956bdcbc0800000000000000
+      internalID: -3761149616829505899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_6
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 890
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb73387f37034c40800000000000000
+      internalID: 5495243939503111166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 406
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251690e7ddb0331d0800000000000000
+      internalID: -3372338650040147630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_8
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 904
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54653a52e930ef930800000000000000
+      internalID: 4178781482017576517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_9
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 910
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bac9c0e21dc6eed0800000000000000
+      internalID: -2384993471681672524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_10
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 899
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617344b23d76022b0800000000000000
+      internalID: -5611370979041986794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_11
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 902
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4aaa84f41ff0890800000000000000
+      internalID: -7489502332469992276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 852
+        width: 163
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e00fbcd4f1bffbc0800000000000000
+      internalID: -3747080699715321628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_13
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 899
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadb8a18333d7c3f0800000000000000
+      internalID: -880502983955530323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_14
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 902
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c02f88f5d61cb10800000000000000
+      internalID: 1999999966616095759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_15
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 872
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b502823bf1e2d0810800000000000000
+      internalID: 1733092145292124251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_16
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 888
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e203d255372d550800000000000000
+      internalID: 6184132048000658985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_17
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 884
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e709e7c4c201940800000000000000
+      internalID: 5264756671448645146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_18
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 858
+        width: 547
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeadef2f72c03f90800000000000000
+      internalID: -6975861971276157211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_19
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 858
+        width: 172
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c78339f1b388bc20800000000000000
+      internalID: 3222470333796943808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_20
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 868
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdc677419be09790800000000000000
+      internalID: -7525255968134345268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_21
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 860
+        width: 170
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569867465e9144510800000000000000
+      internalID: 1532378246236506469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_22
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 852
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38cee932973f6970800000000000000
+      internalID: 8750273702180866111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic_corridor_floor_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4961
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eefef0fb24bd90d0800000000000000
+      internalID: -3414374841657131296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gothic_corridor_floor_0: -436172233809422245
+      gothic_corridor_floor_1: -8482630085309807515
+      gothic_corridor_floor_10: -5611370979041986794
+      gothic_corridor_floor_11: -7489502332469992276
+      gothic_corridor_floor_12: -3747080699715321628
+      gothic_corridor_floor_13: -880502983955530323
+      gothic_corridor_floor_14: 1999999966616095759
+      gothic_corridor_floor_15: 1733092145292124251
+      gothic_corridor_floor_16: 6184132048000658985
+      gothic_corridor_floor_17: 5264756671448645146
+      gothic_corridor_floor_18: -6975861971276157211
+      gothic_corridor_floor_19: 3222470333796943808
+      gothic_corridor_floor_2: 5744951231811405206
+      gothic_corridor_floor_20: -7525255968134345268
+      gothic_corridor_floor_21: 1532378246236506469
+      gothic_corridor_floor_22: 8750273702180866111
+      gothic_corridor_floor_23: -3414374841657131296
+      gothic_corridor_floor_3: -4647838325013270573
+      gothic_corridor_floor_4: 1550777703156212052
+      gothic_corridor_floor_5: -3761149616829505899
+      gothic_corridor_floor_6: 5495243939503111166
+      gothic_corridor_floor_7: -3372338650040147630
+      gothic_corridor_floor_8: 4178781482017576517
+      gothic_corridor_floor_9: -2384993471681672524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

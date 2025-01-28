@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: fd3bce623e200bd4797566d4619774d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1634581245727730955
+    second: Bosse_floor_0
+  - first:
+      213: 8854144317321875987
+    second: Bosse_floor_1
+  - first:
+      213: -3750962395778446560
+    second: Bosse_floor_2
+  - first:
+      213: -4152679380105255462
+    second: Bosse_floor_3
+  - first:
+      213: -8204981816130752308
+    second: Bosse_floor_4
+  - first:
+      213: 7252948774435363001
+    second: Bosse_floor_5
+  - first:
+      213: 4944592176846531107
+    second: Bosse_floor_6
+  - first:
+      213: -3129695267811173354
+    second: Bosse_floor_7
+  - first:
+      213: 6150452889207920485
+    second: Bosse_floor_8
+  - first:
+      213: 1343792412756741641
+    second: Bosse_floor_9
+  - first:
+      213: -673403545548201214
+    second: Bosse_floor_10
+  - first:
+      213: -6899591995046732342
+    second: Bosse_floor_11
+  - first:
+      213: 8983069973711351538
+    second: Bosse_floor_12
+  - first:
+      213: -1620587380557248049
+    second: Bosse_floor_13
+  - first:
+      213: -4486960385226417394
+    second: Bosse_floor_14
+  - first:
+      213: 6047859307984912296
+    second: Bosse_floor_15
+  - first:
+      213: 5547304843861839294
+    second: Bosse_floor_16
+  - first:
+      213: -8641621058071797106
+    second: Bosse_floor_17
+  - first:
+      213: 8492276300923779372
+    second: Bosse_floor_18
+  - first:
+      213: -6640487766860895226
+    second: Bosse_floor_19
+  - first:
+      213: 184749422480064508
+    second: Bosse_floor_20
+  - first:
+      213: -7535116392064062550
+    second: Bosse_floor_21
+  - first:
+      213: -4688367465195987295
+    second: Bosse_floor_22
+  - first:
+      213: -755692774926597646
+    second: Bosse_floor_23
+  - first:
+      213: 3635948498054854561
+    second: Bosse_floor_24
+  - first:
+      213: -8278041156656391602
+    second: Bosse_floor_25
+  - first:
+      213: 1484868550347871257
+    second: Bosse_floor_26
+  - first:
+      213: -515982385791829347
+    second: Bosse_floor_27
+  - first:
+      213: -4579740233089594213
+    second: Bosse_floor_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bosse_floor_0
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1072
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ded1c8bf23fa610800000000000000
+      internalID: 1634581245727730955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1073
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3129308685d30ea70800000000000000
+      internalID: 8854144317321875987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1040
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b07c11397e1fbc0800000000000000
+      internalID: -3750962395778446560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1046
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5acba0b18be56c0800000000000000
+      internalID: -4152679380105255462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1008
+        width: 110
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0bcf4928c022e80800000000000000
+      internalID: -8204981816130752308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 966
+        width: 148
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8135a8b76a7a460800000000000000
+      internalID: 7252948774435363001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1039
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aec142368be9440800000000000000
+      internalID: 4944592176846531107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_7
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1024
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cd4ea5cb61194d0800000000000000
+      internalID: -3129695267811173354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1026
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5675305f05cca5550800000000000000
+      internalID: 6150452889207920485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_9
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1024
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e0b36641c16a210800000000000000
+      internalID: 1343792412756741641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 928
+        width: 468
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2036c1d0b0797a6f0800000000000000
+      internalID: -673403545548201214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_11
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1004
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd5c18d2a9bf30a0800000000000000
+      internalID: -6899591995046732342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_12
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1004
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2feea87fb864aac70800000000000000
+      internalID: 8983069973711351538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_13
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1010
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc987661d548289e0800000000000000
+      internalID: -1620587380557248049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 960
+        width: 118
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b54557d4d1bb1c0800000000000000
+      internalID: -4486960385226417394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 992
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8affaf76fff4ee350800000000000000
+      internalID: 6047859307984912296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 994
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd40375d5cfbfc40800000000000000
+      internalID: 5547304843861839294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_17
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 988
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e826816de6bc21880800000000000000
+      internalID: -8641621058071797106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_18
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 972
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29b70b3d40aad570800000000000000
+      internalID: 8492276300923779372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 950
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cede01f8f38d3a0800000000000000
+      internalID: -6640487766860895226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_20
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 957
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfff163fe9c509200800000000000000
+      internalID: 184749422480064508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 938
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab6ccd6093ed6790800000000000000
+      internalID: -7535116392064062550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae9e7461a29feeb0800000000000000
+      internalID: -4688367465195987295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 928
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1cb2fcc6d3385f0800000000000000
+      internalID: -755692774926597646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 925
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7bc2815eb757230800000000000000
+      internalID: 3635948498054854561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_25
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 925
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a9e6d4d6d7e1d80800000000000000
+      internalID: -8278041156656391602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 895
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91452a154105b9410800000000000000
+      internalID: 1484868550347871257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4654
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9af48001ccd6d8f0800000000000000
+      internalID: -515982385791829347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosse_floor_28
+      rect:
+        serializedVersion: 2
+        x: 4660
+        y: 283
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c4123c58e7170c0800000000000000
+      internalID: -4579740233089594213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bosse_floor_0: 1634581245727730955
+      Bosse_floor_1: 8854144317321875987
+      Bosse_floor_10: -673403545548201214
+      Bosse_floor_11: -6899591995046732342
+      Bosse_floor_12: 8983069973711351538
+      Bosse_floor_13: -1620587380557248049
+      Bosse_floor_14: -4486960385226417394
+      Bosse_floor_15: 6047859307984912296
+      Bosse_floor_16: 5547304843861839294
+      Bosse_floor_17: -8641621058071797106
+      Bosse_floor_18: 8492276300923779372
+      Bosse_floor_19: -6640487766860895226
+      Bosse_floor_2: -3750962395778446560
+      Bosse_floor_20: 184749422480064508
+      Bosse_floor_21: -7535116392064062550
+      Bosse_floor_22: -4688367465195987295
+      Bosse_floor_23: -755692774926597646
+      Bosse_floor_24: 3635948498054854561
+      Bosse_floor_25: -8278041156656391602
+      Bosse_floor_26: 1484868550347871257
+      Bosse_floor_27: -515982385791829347
+      Bosse_floor_28: -4579740233089594213
+      Bosse_floor_3: -4152679380105255462
+      Bosse_floor_4: -8204981816130752308
+      Bosse_floor_5: 7252948774435363001
+      Bosse_floor_6: 4944592176846531107
+      Bosse_floor_7: -3129695267811173354
+      Bosse_floor_8: 6150452889207920485
+      Bosse_floor_9: 1343792412756741641
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
