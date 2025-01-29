@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Trompette
-  sound: {fileID: 8300000, guid: 45dc357650ed4c48b0119675a6c55ac4, type: 3}
+  sound: {fileID: 8300000, guid: d6c6e615659385640b4c48c2345a03e3, type: 3}
   audioSource: {fileID: 0}
   animator: {fileID: 200402327}
 --- !u!1 &511986967
@@ -13002,7 +13002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Banjo
-  sound: {fileID: 8300000, guid: e6f767e79111ed84a927ceb7e7a8bf4e, type: 3}
+  sound: {fileID: 8300000, guid: 88315e0422db44f4a8f0b656458adccd, type: 3}
   audioSource: {fileID: 0}
   animator: {fileID: 200402327}
 --- !u!114 &2053029479
@@ -13132,7 +13132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Violon
-  sound: {fileID: 8300000, guid: 492798af76e41e84e983cc7fbd3ee438, type: 3}
+  sound: {fileID: 8300000, guid: 097e07a3e9e80f44ea54387b0d160416, type: 3}
   audioSource: {fileID: 0}
   animator: {fileID: 200402327}
 --- !u!1 &2084983333
